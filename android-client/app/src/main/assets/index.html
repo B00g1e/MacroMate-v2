@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>MacroMate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>MacroMate</h1>
+            <div class="connection-status">
+                <span id="status-indicator" class="status-disconnected"></span>
+                <span id="status-text">Disconnected</span>
+            </div>
+        </header>
+
+        <div id="settings-panel" class="settings-panel">
+            <div class="settings-content">
+                <h2>Settings</h2>
+                <div class="form-group">
+                    <label for="server-url">Server URL</label>
+                    <input type="text" id="server-url" placeholder="http://192.168.1.100:3000" value="http://192.168.1.100:3000">
+                </div>
+                <div class="button-group">
+                    <button id="connect-btn" class="btn btn-primary">Connect</button>
+                    <button id="disconnect-btn" class="btn btn-secondary" disabled>Disconnect</button>
+                </div>
+                <button id="close-settings" class="btn btn-close">Close</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="button-grid" class="button-grid">
+                <!-- Buttons will be dynamically generated -->
+            </div>
+        </div>
+
+        <button id="settings-btn" class="settings-toggle">⚙️</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

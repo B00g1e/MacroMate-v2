@@ -1,0 +1,82 @@
+{
+  "buttons": [
+    {
+      "id": "btn_copy",
+      "name": "Copy",
+      "icon": "📋",
+      "image": null,
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 67,
+          "modifiers": [17]
+        }
+      ]
+    },
+    {
+      "id": "btn_paste",
+      "name": "Paste",
+      "icon": "📄",
+      "image": null,
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 86,
+          "modifiers": [17]
+        }
+      ]
+    },
+    {
+      "id": "btn_screenshot",
+      "name": "Screenshot",
+      "icon": "📸",
+      "image": null,
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 83,
+          "modifiers": [524, 16]
+        }
+      ]
+    },
+    {
+      "id": "btn_selectall",
+      "name": "Select All",
+      "icon": "✨",
+      "image": null,
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 65,
+          "modifiers": [17]
+        }
+      ]
+    },
+    {
+      "id": "btn_save",
+      "name": "Save",
+      "icon": "💾",
+      "image": null,
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 83,
+          "modifiers": [17]
+        }
+      ]
+    },
+    {
+      "id": "btn_find",
+      "name": "Find",
+      "icon": "🔍",
+      "image": null,
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 70,
+          "modifiers": [17]
+        }
+      ]
+    }
+  ]
+}
