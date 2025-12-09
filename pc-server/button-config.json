@@ -1,0 +1,184 @@
+{
+  "buttons": [
+    {
+      "id": "btn_1",
+      "name": "Copy",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 67,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_2",
+      "name": "Paste",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 86,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_3",
+      "name": "Screenshot",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 154,
+          "modifiers": []
+        }
+      ]
+    },
+    {
+      "id": "btn_4",
+      "name": "Select All",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 65,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_5",
+      "name": "Save",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 83,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_6",
+      "name": "Find",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 70,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_7",
+      "name": "Alt+Tab",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 9,
+          "modifiers": [
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_8",
+      "name": "Show Desktop",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 68,
+          "modifiers": [
+            524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_9",
+      "name": "Task Manager",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 27,
+          "modifiers": [
+            17,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_10",
+      "name": "Lock PC",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 76,
+          "modifiers": [
+            524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_11",
+      "name": "Undo",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 90,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_12",
+      "name": "Redo",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 89,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_1764354084683",
+      "name": "ASd",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 65,
+          "modifiers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "btn_1764354166600",
+      "name": "fsd",
+      "icon": "a",
+      "actions": [
+        {
+          "type": "keyPress",
+          "key": 83,
+          "modifiers": []
+        }
+      ]
+    }
+  ]
+}
